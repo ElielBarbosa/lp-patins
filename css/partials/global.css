@@ -1,0 +1,40 @@
+@import url('./typograph.css');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headings-font);
+  color: var(--text-color);
+}
+
+h1 {
+  line-height: 1.25;
+}
+
+h2 {
+  line-height: 1.2;
+
+}
+
+p,
+span,
+a,
+li,
+div,
+label,
+html,
+button {
+  font-family: var(--body-font);
+  color: var(--text-color);
+}

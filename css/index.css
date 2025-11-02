@@ -1,3 +1,7 @@
+@import url('./partials/global.css');
+@import url('./partials/colors.css');
+@import url('./partials/typograph.css');
+
 body {
   background-color: red;
 }
