@@ -1,0 +1,191 @@
+@import url('./partials/colors.css');
+@import url('./partials/animations.css');
+
+
+/*Hero Container*/
+.hero-container {
+  margin-inline: auto;
+  width: 100%;
+
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin: 3rem 0;
+
+
+}
+
+/*Hero Content*/
+
+.hero-content {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /*Hero - Title*/
+  h1 div {
+    display: inline-block;
+    overflow: hidden;
+    height: 5rem;
+    width: min-content;
+    vertical-align: bottom;
+  }
+
+  h1 span:nth-child(1) {
+    color: var(--snitap-sky-light);
+  }
+
+  h1 span:nth-child(2) {
+    color: var(--snitap-joy-mid);
+  }
+
+  h1 span:nth-child(3) {
+    color: var(--snitap-leaf-mid);
+  }
+
+  h1 span {
+    display: block;
+    animation: slide-up 5s ease-in-out infinite;
+  }
+
+
+  /*Hero - CTA Buttons*/
+
+  .cta-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .button-comprar {
+    padding: 24px 48px;
+
+    background-color: var(--snitap-sun);
+    color: var(--text-color);
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 3rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    cursor: pointer;
+    box-shadow: var(--shadow-button);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.438);
+    }
+  }
+
+
+  .button-acao {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    font-size: 1.25rem;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background-color: var(--background-color);
+      border-radius: 60px;
+
+      box-shadow: var(--shadow-button);
+
+      img {
+        width: 24px;
+
+      }
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+}
+
+
+/*Hero image*/
+
+.hero-image {
+  width: 100%;
+  max-width: 30.5rem;
+  height: 30.5rem;
+
+
+  display: block;
+  overflow: hidden;
+
+  position: relative;
+
+  & .content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    /*Aplicação do estilo genérico*/
+
+    & img {
+      position: absolute;
+    }
+
+    & .stars {
+      max-width: 5.5rem;
+      transform: translateX(200%);
+      animation: slide-in 3s ease forwards;
+    }
+
+    & .ellipse {
+      width: 94%;
+      top: 3%;
+      left: 3%;
+
+      transform: translateX(200%);
+      animation: slide-in 3s 200ms ease forwards;
+    }
+
+    & .patins {
+      width: 100%;
+      z-index: 1;
+      transform: translateX(200%);
+      animation: slide-in 3s 200ms ease forwards;
+    }
+
+    & .stars-1 {
+      top: 30%;
+      z-index: 0;
+      opacity: 0;
+
+      transform: translateX(450%);
+      animation: slide-in 2s 800ms ease forwards, aparear .8s 800ms ease forwards;
+    }
+
+    & .stars-2 {
+      bottom: 35%;
+      right: 0;
+      z-index: 0;
+      opacity: 0;
+
+      transform: translateX(200%);
+      animation: slide-in 2s 800ms ease forwards, aparear 100ms 800ms ease forwards;
+
+    }
+  }
+}

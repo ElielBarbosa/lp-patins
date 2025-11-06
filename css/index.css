@@ -1,4 +1,9 @@
 @import url('./global.css');
+
 @import url('./partials/colors.css');
 @import url('./partials/typograph.css');
 @import url('./partials/layout.css');
+
+
+@import url('./header.css');
+@import url('./hero.css');
