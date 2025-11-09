@@ -1,0 +1,23 @@
+[33mcommit 3b321e519333779dce0795d8d0a01d0837bba272[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Thu Nov 6 15:01:48 2025 -0300
+
+    feat(Hero Section): Implementar seção hero
+
+[33mcommit 00153a3099804a26440de0170d6155d802cb6e1c[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sun Nov 2 23:30:17 2025 -0300
+
+    feat(header): Implementar do header
+
+[33mcommit 2208bd79e5097ebaee71db2118890afe61c48395[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sun Nov 2 17:27:28 2025 -0300
+
+    feat(styles): Implementar biblioteca css
+
+[33mcommit 9879a8b816693f9f3df3b0f4da887612db0901b5[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sun Nov 2 17:09:43 2025 -0300
+
+    Commit inicial

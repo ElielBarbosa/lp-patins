@@ -48,7 +48,7 @@
 
   h1 span {
     display: block;
-    animation: slide-up 5s ease-in-out infinite;
+    animation: slide-up 6s ease infinite;
   }
 
 
@@ -184,7 +184,7 @@
       opacity: 0;
 
       transform: translateX(200%);
-      animation: slide-in 2s 800ms ease forwards, aparear 100ms 800ms ease forwards;
+      animation: slide-in 2s 1s ease forwards, aparear 100ms 800ms ease forwards;
 
     }
   }
